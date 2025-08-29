@@ -31,9 +31,9 @@ p {
 }
 
 @keyframes click {
-    0% { transition: scale(1); }
-    50% { transition: scale(1.2); }
-    100% { transition: scale(1); }
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
 }
 
 .container {
