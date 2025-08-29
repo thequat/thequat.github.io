@@ -17,9 +17,10 @@ p {
 .btn {
     font-family: "Exo 2", sans-serif;
     display: block;
+    color: #7fffd4;
     width: max-content;
     height: max-content;
-    color: #353643;
+    background-color: #353643;
     border: 2px solid #464754;
     padding: 10px 30px;
     border-radius: 12px;
