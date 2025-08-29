@@ -65,17 +65,17 @@ p {
     top: -5%;
     right: -5%;
     width: 110%;
-    height: 20%;
+    height: 10%;
     background-color: #353643;
     border: 3px solid #464754;
 }
 
 .nav-menu-text {
     position: fixed;
-    top: 0%;
+    top: 1%;
     left: 20%;
     font-family: "PT Mono", sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #7fffd4;
 }
 
