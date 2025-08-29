@@ -49,4 +49,19 @@ p {
     padding: 10px 10px;
 }
 
+.nav-menu {
+    display: block;
+    position: fixed;
+    top: -5%;
+    right: 5%;
+    width: 110%;
+    height: 10%;
+    background-color: #353643;
+    border: 3px solid #464754;
+}
 
+.nav-menu-text {
+    position: fixed;
+    top: 0%;
+    left: 20%;
+}
