@@ -24,7 +24,7 @@ ul {
     color: #f0f8ff;
 }
 
-li {
+ul.li {
     font-family: "Neucha", sans-serif;
     font-size: 2rem;
     color: #f0f8ff;
