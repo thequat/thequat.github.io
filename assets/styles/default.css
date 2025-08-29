@@ -1,0 +1,33 @@
+body {
+    background-color: #242532;
+}
+
+h1 {
+    font-family: "PT Mono", sans-serif;
+    font-size: 4rem;
+}
+
+p {
+    font-family: "Neucha", sans-serif;
+    font-size: 2rem;
+}
+
+.btn {
+    font-family: "Exo 2", sans-serif;
+    display: block;
+    width: max-content;
+    height: max-content;
+    color: #353643;
+    border: 2px solid #464754;
+    padding: 10px 30px;
+}
+
+.btn:active {
+    animation: click 0.3s ease;
+}
+
+@keyframes click {
+    0% { transition: scale(1); }
+    50% { transition: scale(1.2); }
+    100% { transition: scale(1); }
+}
