@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta http-equiv="refresh" content="0; url=/ru/home" />
-    </head>
+    <body>
+        <script>
+            const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                window.location.href = "/ru/home/mobile";
+            } else {
+                window.location.href = "/ru/home";
+            }
+        </script>
+    </body>
 </html>

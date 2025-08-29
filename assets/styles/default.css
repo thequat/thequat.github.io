@@ -42,9 +42,11 @@ p {
 
 .section {
     background-color: #353643;
-    width: 60%;
+    width: 50%;
     height: max-content;
     border: 3px solid #464754;
     border-radius: 12px;
     padding: 10px 10px;
 }
+
+
