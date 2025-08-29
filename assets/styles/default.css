@@ -65,7 +65,7 @@ p {
     top: -5%;
     right: -5%;
     width: 110%;
-    height: 10%;
+    height: 20%;
     background-color: #353643;
     border: 3px solid #464754;
 }
@@ -75,7 +75,7 @@ p {
     top: 0%;
     left: 20%;
     font-family: "PT Mono", sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #7fffd4;
 }
 
