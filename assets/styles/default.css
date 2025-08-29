@@ -18,6 +18,28 @@ p {
     color: #f0f8ff;
 }
 
+a {
+    text-decoration: none;
+    color: #7fffd4;
+}
+
+a:link {
+    color: #7fffd4;
+}
+
+a:visited {
+    color: #2ec593;
+}
+
+a:hover {
+    color: #7fffd4;
+}
+
+a:active {
+    color: #63d1ac;
+}
+
+
 /* === Кнопки === */
 
 .btn {
