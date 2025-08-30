@@ -1,0 +1,188 @@
+/* === Тело === */
+
+body {
+    background-color: #242532;
+}
+
+/* === Текст === */
+
+h1, h2, h3 {
+    font-family: "PT Mono", sans-serif;
+    font-size: 2.5rem;
+    color: #7fffd4;
+}
+
+p {
+    font-family: "Neucha", sans-serif;
+    font-size: 1.5rem;
+    color: #f0f8ff;
+}
+
+ul {
+    font-family: "Neucha", sans-serif;
+    font-size: 1.5rem;
+    color: #f0f8ff;
+}
+
+ul.li {
+    font-family: "Neucha", sans-serif;
+    font-size: 1.5rem;
+    color: #f0f8ff;
+}
+
+a {
+    text-decoration: none;
+    color: #7fffd4;
+}
+
+a:link {
+    color: #7fffd4;
+}
+
+a:visited {
+    color: #2ec593;
+}
+
+a:hover {
+    color: #7fffd4;
+}
+
+a:active {
+    color: #63d1ac;
+}
+
+
+/* === Кнопки === */
+
+.btn {
+    font-family: "Exo 2", sans-serif;
+    display: block;
+    color: #7fffd4;
+    width: max-content;
+    height: max-content;
+    background-color: #353643;
+    border: 2px solid #464754;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn:active {
+    animation: click 0.3s ease;
+}
+
+@keyframes click {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+/* === Основной контент === */
+
+.container {
+    opacity: 1;
+}
+
+.section {
+    background-color: #353643;
+    width: 80%;
+    height: max-content;
+    border: 3px solid #464754;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+/* === Меню навигации === */
+
+.nav-menu {
+    display: block;
+    position: fixed;
+    top: -5%;
+    right: -5%;
+    width: 110%;
+    height: 10%;
+    z-index: 6;
+    background-color: #353643;
+    border: 3px solid #464754;
+}
+
+.tab-menu-toggle {
+    font-family: "Exo 2", sans-serif;
+    display: block;
+    color: #7fffd4;
+    width: max-content;
+    height: max-content;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.tab-menu {
+    display: block;
+    position: fixed;
+    top: 0%;
+    right: -150%;
+    width: 10%;
+    height: 100%;
+    z-index: 5;
+    background-color: #353643;
+    border: 3px solid #464754;
+}
+
+.tab-menu-active {
+    display: block;
+    position: fixed;
+    top: 0%;
+    right: -5%;
+    width: 10%;
+    height: 100%;
+    z-index: 5;
+    background-color: #353643;
+    border: 3px solid #464754;
+}
+
+.nav-menu-text {
+    position: fixed;
+    top: 1%;
+    left: 25%;
+    font-family: "PT Mono", sans-serif;
+    font-size: 2rem;
+    color: #7fffd4;
+}
+
+/* === Загрузчик === */
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #242532;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9999;
+}
+
+.spinner {
+    border: 6px solid #353643;
+    border-top: 6px solid #7fffd4;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loader-text {
+    margin-top: 20px;
+    font-family: "PT Mono", sans-serif;
+    font-size: 2rem;
+    color: #7fffd4;
+}
