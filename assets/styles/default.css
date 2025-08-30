@@ -106,17 +106,48 @@ a:active {
     border: 3px solid #464754;
 }
 
-.tab-menu {
-    display: block;
+.tab-menu-toggle {
     position: fixed;
-    top: 0%;
-    right: -5%;
-    width: 10%;
+    top: 1%;
+    right: 25%;
+    font-family: "PT Mono", sans-serif;
+    font-size: 2rem;
+    color: #7fffd4;
+    cursor: pointer;
+    background: none;
+    border: none;
+    z-index: 10;
+}
+
+/* сама панель */
+.tab-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* скрыто */
+    width: 40%;
     height: 100%;
-    z-index: 5;
     background-color: #353643;
     border: 3px solid #464754;
+    overflow: hidden; /* скрываем лишнее */
+    transition: right 0.4s ease-in-out;
+    z-index: 5;
 }
+
+/* активное состояние */
+.tab-menu.active {
+    right: 0;
+}
+
+/* иконка (стрелка) */
+.tab-menu-toggle svg {
+    transition: transform 0.3s ease;
+}
+
+/* при открытом меню вращаем */
+.tab-menu-toggle.open svg {
+    transform: rotate(180deg);
+}
+
 
 .nav-menu-text {
     position: fixed;
